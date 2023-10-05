@@ -16,7 +16,6 @@ const FriendSearchDialog = ({ findFriendDialogState, setFindFriendDialogState }:
   const { fbUser } = useAuth()
   const [usersList, setUsersList] = useState<Array<UsersList>>([])
   const friendsList = useAppSelector(state => state.home.friendsList)
-  console.log(friendsList)
   useQuery(GET_PEOPLE_LIST, {
     variables: {
       _neq: fbUser?.uid
