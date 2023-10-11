@@ -1,0 +1,18 @@
+.listItemBox {
+  width: auto;
+  height: 1rem;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.listItemButton {
+  width: 10%;
+  background-color: rgb(85, 235, 255);
+  height: 1.5rem;
+}
+
+.listItemText {
+  width: 90%;
+}

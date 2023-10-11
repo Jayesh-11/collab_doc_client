@@ -32,7 +32,7 @@ const HeroSpace = () => {
       <div className={styles.editingSection}>
 
       </div>
-      <FriendSearchDialog findFriendDialogState={findFriendDialogState} setFindFriendDialogState={setFindFriendDialogState} />
+      {findFriendDialogState && <FriendSearchDialog findFriendDialogState={findFriendDialogState} setFindFriendDialogState={setFindFriendDialogState} />}
     </div>
   )
 }
