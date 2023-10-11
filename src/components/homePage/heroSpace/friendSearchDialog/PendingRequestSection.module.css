@@ -1,0 +1,14 @@
+.requestActionButtons {
+  display: flex;
+  gap: 5px;
+}
+
+.requestsListItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userNameTextBox {
+  display: flex;
+  align-items: center;
+}
